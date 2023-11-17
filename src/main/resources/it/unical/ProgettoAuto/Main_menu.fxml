@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane cacheShape="false" centerShape="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: black;" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="it.unical.ProgettoAuto.controller.MainController">
+   <JFXButton defaultButton="true" layoutX="46.0" layoutY="180.0" onAction="#START" prefHeight="80.0" prefWidth="185.0" ripplerFill="#c62828" styleClass="Gioca" stylesheets="@style.css" text="GIOCA" textAlignment="CENTER">
+      <font>
+         <Font name="Impact" size="40.0" />
+      </font>
+      <effect>
+         <Shadow />
+      </effect>
+   </JFXButton>
+   <JFXButton layoutX="46.0" layoutY="260.0" onAction="#IMPOSTAZIONI" prefHeight="50.0" prefWidth="185.0" ripplerFill="#c62828" styleClass="Impostazioni" stylesheets="@style.css" text="IMPOSTAZIONI">
+      <font>
+         <Font name="Impact" size="20.0" />
+      </font>
+   </JFXButton>
+   <JFXButton layoutX="46.0" layoutY="310.0" onAction="#CLASSIFICA" prefHeight="50.0" prefWidth="185.0" ripplerFill="#c62828" styleClass="Punteggi" stylesheets="@style.css" text="PUNTEGGI">
+      <font>
+         <Font name="Impact" size="20.0" />
+      </font>
+   </JFXButton>
+   <JFXButton layoutX="500.0" layoutY="360.0" onAction="#ESCI" prefHeight="50.0" prefWidth="160.0" ripplerFill="#c62828" styleClass="Esci" stylesheets="@style.css" text="ESCI">
+      <font>
+         <Font name="Impact" size="15.0" />
+      </font>
+   </JFXButton>
+   <ImageView fitHeight="139.0" fitWidth="214.0" layoutX="393.0" layoutY="213.0">
+      <Image url="@Images/pizza.jpg" />
+   </ImageView>
+   <Label layoutX="57.0" layoutY="57.0" prefHeight="81.0" prefWidth="559.0" styleClass="Titolo" stylesheets="@style.css" text="PIZZA DELIVER" textFill="RED">
+      <font>
+         <Font size="59.0" />
+      </font>
+   </Label>
+   <JFXButton layoutX="435.0" layoutY="220.0" onAction="#LOORE" prefHeight="115.0" prefWidth="137.0" ripplerFill="#c62828" styleClass="Tasti" stylesheets="@style.css" text=" ">
+      <font>
+         <Font name="Impact" size="20.0" />
+      </font>
+   </JFXButton>
+</Pane>

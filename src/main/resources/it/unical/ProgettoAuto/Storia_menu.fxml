@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane cacheShape="false" centerShape="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: black;" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unical.ProgettoAuto.controller.StoryController">
+   <JFXButton layoutX="500.0" layoutY="360.0" onAction="#ESCI" prefHeight="50.0" prefWidth="160.0" ripplerFill="#c62828" styleClass="Esci" stylesheets="@style.css" text="ESCI">
+      <font>
+         <Font name="Impact" size="15.0" />
+      </font>
+   </JFXButton>
+   <ImageView fitHeight="139.0" fitWidth="214.0" layoutX="393.0" layoutY="213.0">
+      <Image url="@Images/pizza.jpg" />
+   </ImageView>
+   <Label layoutX="57.0" layoutY="57.0" prefHeight="81.0" prefWidth="559.0" styleClass="Titolo" stylesheets="@style.css" text="PIZZA DELIVER" textFill="RED">
+      <font>
+         <Font size="59.0" />
+      </font>
+   </Label>
+   <FlowPane fx:id="container" alignment="CENTER" layoutX="31.0" layoutY="158.0" maxHeight="300.0" minWidth="400.0" orientation="VERTICAL" prefHeight="250.0" prefWidth="400.0">
+   </FlowPane>
+   <JFXButton layoutX="435.0" layoutY="220.0" onAction="#INDIETRO" prefHeight="115.0" prefWidth="137.0" ripplerFill="#c62828" textFill="#ae0a0a" />
+</Pane>

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Pixeboy';
+    src: url('Resources/Pixeboy.ttf'),;
+
+}
+
+.Titolo {
+    -fx-font-family: "Pixeboy";
+    -fx-font-size: 80px;
+}
+
+.Gioca {
+    -fx-font-family: "Pixeboy";
+    -fx-font-size: 47px;
+}
+
+.Impostazioni {
+    -fx-font-family: "Pixeboy";
+    -fx-font-size: 26px;
+}
+
+.Punteggi {
+    -fx-font-family: "Pixeboy";
+    -fx-font-size: 26px;
+}
+
+.Esci {
+    -fx-font-family: "Pixeboy";
+    -fx-font-size: 20px;
+}
